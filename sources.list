@@ -1,0 +1,19 @@
+deb http://cdn.debian.net/debian/ jessie main non-free contrib
+deb-src http://cdn.debian.net/debian/ jessie main non-free contrib
+
+deb http://cdn.debian.net/debian/ sid main non-free contrib
+deb-src http://cdn.debian.net/debian/ sid main non-free contrib
+
+deb http://security.debian.org/ jessie/updates main non-free contrib
+deb-src http://security.debian.org/ jessie/updates main non-free contrib
+
+# jessie-updates, previously known as 'volatile'
+deb http://cdn.debian.net/debian/ jessie-updates main non-free contrib
+deb-src http://cdn.debian.net/debian/ jessie-updates main non-free contrib
+
+# jessie-backports, previously on backports.debian.org
+deb http://cdn.debian.net/debian/ jessie-backports main non-free contrib
+deb-src http://cdn.debian.net/debian/ jessie-backports main non-free contrib
+
+deb http://ppa.launchpad.net/numix/ppa/ubuntu utopic main
+deb-src http://ppa.launchpad.net/numix/ppa/ubuntu utopic main
